@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+    <head>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="stylesheet" href="css/style.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap" rel="stylesheet">
+       <title>BTS Universe</title>
+       <link rel="icon" type="image/x-icon" href="img/favicon.ico2.png">
+       <script>
+          //Get the button:
+          mybutton = document.getElementById("myBtn");
+
+          // When the user scrolls down 20px from the top of the document, show the button
+          window.onscroll = function() {scrollFunction()};
+
+          function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              mybutton.style.display = "block";
+               } else {
+              mybutton.style.display = "none";
+               }
+                }
+
+          // When the user clicks on the button, scroll to the top of the document
+          function topFunction() {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+           }
+       </script>
+    </head>
+    <body class="container-fluid">
+       <header>
+          <h1>BTS UNIVERSE</h1>
+          <h2>Everything You Need To Know About BTS: the beginner's guide for ARMY</h2>
+        <nav>
+          <ul>
+          <li><a class="whitelink" href="index.html">HOME</a></li>
+          <li><a class="whitelink" href="about.html">ABOUT</a></li>
+          <li><a class="whitelink" href="news.html">LATEST</a></li>
+          <li><a class="whitelink" href="members.html">GROUP</a></li>
+          <li><a class="whitelink" href="discography.html">DISCOGRAPHY</a></li>
+          <li><a class="whitelink" href="accounts.html">OFFICIAL ACCOUNTS</a></li>
+          <div class="dropdown">
+            <button class="dropbtn">MORE</button>
+            <div class="dropdown-content">
+              <a href="shows.html">Variety Shows</a>
+              <a href="forarmy.html">For ARMY</a>
+           </div>
+         </div>
+          </ul>
+        </nav>
+       </header>
+       <main>
+          <p class="other"><b>DOCUMENTAZIONE</b></p> 
+          <p class="title">Abstract</p>
+          <p>BTS UNIVERSE ha come obiettivo quello di fornire informazioni a proposito della boy band sudcoreana più popolare del momento, i BTS. A differenze delle numerose risorse che già esistono, questo sito intende provvedere solo le informazioni fondamentali, evitando che chi legge si senta sopraffatto dalla quantità di contenuti esistenti. Il sito si rivolge a tutti coloro che vorrebbero conoscere meglio il gruppo e ai fan che vogliono rimanere aggiornati. Un altro elemento che il sito offre è la possibilità di trovare link utili per chiunque voglia approfondire le proprie conoscenze su tutto ciò che riguarda i BTS.</p>
+          <p class="title">Project Management Plan</p>
+          <p><b>1. Benchmarking</b></p>
+          <p><b>- Obiettivi:</b> l'obiettivo principale del sito è fungere da guida per tutti coloro che vorrebbero conoscere meglio i BTS e, allo stesso tempo, aiutare i fan (ARMY) a orientarsi fra i numerosi contenuti che la band offre.</p>
+          <p><b>- Target Utente:</b> Persone di qualsiasi età, genere e nazionalità che apprezzano la musica dei BTS e vorrebbero avere più informazioni su tutto ciò che li riguarda.</p>
+          <p><b>- Competitors:</b></p>
+          <p class="list"><a href="https://thebtsguide.wordpress.com/" target="_blank" class="link2">The BTS Guide</a> → elenco di risorse riguardanti la band, rivolto ai fan ("nuovi" e non). <i><b>Pregi:</b></i> contiene numerose informazioni, facili da trovare per coloro che già conoscono abbastanza bene la band e cercano qualcosa in particolare. <i><b>Difetti:</b></i> il sito potrebbe risultare dispersivo per coloro che non conoscono la band e stanno cercando informazioni generali.<br><a href="https://allforarmy.com/" target="_blank" class="link2">All For ARMY</a> → il sito raccoglie informazioni utili per rimanere aggiornati sulle attività del fandom, quindi è rivolto principalmente ai fan. <i><b>Pregi:</b></i> è molto utile per chi ha già familiarità con il gruppo e il fandom. <i><b>Difetti:</b></i> contiene poche informazioni utili per coloro che vogliono conoscere meglio la band e non è aggiornato riguardo alle nuove uscite musicali.</p>
+          <p><b>2. Struttura e Layout</b></p>
+          <p><b>- Architettura del sito:</b></p>
+          <img src="img/architettura.png" alt="architettura sito" class="documentazione">
+          <p class="caption">Immagine 1. Rappresentazione grafica (ad albero) dell'organizzazione delle pagine del sito</p>
+          <p><b>- Wireframe:</b></p>
+          <img src="img/wireframe1.png" alt="wireframe 1" class="documentazione2">
+          <p class="caption">Immagine 2. Wireframe della Home</p>
+          <img src="img/wireframe2.png" alt="wireframe 2" class="documentazione2">
+          <p class="caption">Immagine 3. Wireframe delle pagine About e Variety Shows</p>
+          <img src="img/wireframe3.png" alt="wireframe 3" class="documentazione2">
+          <p class="caption">Immagine 4. Wireframe della pagina Group</p>
+          <img src="img/wireframe4.png" alt="wireframe 4" class="documentazione2">
+          <p class="caption">Immagine 5. Wireframe delle pagine Latest, Official Accounts e For ARMY</p>
+          <img src="img/wireframe5.png" alt="wireframe 5" class="documentazione2">
+          <p class="caption">Immagine 6. Wireframe della pagina Discography</p>
+          <p><b>- Look and Feel:</b></p>
+          <p class="list">Font → Epilogue (sans-serif) per aumentare la visibilità dei titoli e facilitare la lettura dei testi, essendo questi ultimi molto brevi<br>Palette colori → bianco, nero (per rendere facilmente leggibili i testi) e #6f42c1 (perché il viola è considerato uno dei simboli della band)<br>Favicon → raffigura una balena, anch'essa simbolo del gruppo</p>
+          <p><b>3. Linguaggi e Strumenti</b></p>
+          <p><b>- Linguaggi:</b> HTML, CSS, JavaScript</p>
+          <p><b>- Strumenti:</b></p>
+          <p class="list">Sublime Text 2 → text editor<br>Google Fonts e Fontpair → per la scelta delle font<br>Adobe Color → per la scelta dei colori<br>Canva e Paint 3D → per la realizzazione della favicon<br>Font Awesome → per le icone<br>W3Schools → per JavaScript e tutorial su HTML/CSS<br>Balsamiq → per l'architettura e i wireframe<br>GitHub → per la pubblicazione del sito<br>Social → per la promozione del sito<br>Google Analytics → per l'analisi dell'andamento del sito</p>
+          <p class="title">Communication Strategy</p>
+          <p><b>1. Background</b></p>
+          <p>A differenza dei competitors analizzati precedentemente, BTS UNIVERSE è un sito rivolto principalmente alle persone che non hanno familiarità con i BTS e il loro fandom. Questo sito contiene solo le informazioni di base, scritte in modo schematico e facili da capire, quindi più adatte a tutti coloro che sono "inesperti" riguardo all'argomento.</p>
+          <p><b>2. Obiettivi Comunicativi</b></p>
+          <p>L'obiettivo principale di questo sito è quello di diffondere le informazioni fondamentali riguardanti i BTS, quindi fungere da guida per i "nuovi" fan o per chiunque voglia sapere qualcosa di più sulla band. Inoltre, BTS UNIVERSE ha lo scopo di tenere aggiornati i fan su tutte le novità e fornire un elenco di contenuti che possono essere utili ad approfondire il tema.</p>
+          <p><b>3. Target Audience e Messaggio</b></p>
+          <p><b>- A chi si rivolge il sito?</b></p>
+          <p>Persone di qualsiasi genere e nazionalità, con un'età compresa principalmente tra i 18 e i 29 anni, a cui piace ascoltare la musica dei BTS e vogliono conoscere meglio il gruppo<br>Fan del gruppo<br>Utente casuale, che ha solo senito parlare dei BTS e vorrebbe saperne di più</p>
+          <p>(I target audience devono sapere l'inglese)</p>
+          <p>Questi gruppi vengono solitamente raggiunti attraverso i social, quindi la realizzazione di post su Instagram o Twitter è il modo più efficace per far conoscere loro il sito.</p>
+          <p><b>- Quale messaggio trasmette il sito?</b></p>
+          <p>Il sito si propone di fornire informazioni basilari a proposito della band. Tutti i contenuti sono scritti in modo schematico e sintetico per facilitarne la compresnione da parte del target audience. Uno scopo secondario del sito è fare in modo che le persone si appassionino al gruppo e continuino (o comincino) ad apprezzare la loro musica.</p>
+          <p><b>4. Promozione</b></p>
+          <p>Intendo promuovere il sito attraverso la pubblicazione di post su Instagram e Twitter.</p>
+          <p><b>5. Valutazione dei Risultati</b></p>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>  
+       </main>
+       <footer>
+        <div class="footer">
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Add font awesome icons -->
+        <a href="https://www.instagram.com/seokjinsapple/" class="fa fa-instagram" target="_blank"></a>
+        <a href="https://twitter.com/butteredjimin" class="fa fa-twitter" target="_blank"></a>
+        <a href="documentazione.html" class="fa fa-doc">&#xf016;</a>
+        </div>
+       </footer>
+    </body>
+</html>        
+ 
