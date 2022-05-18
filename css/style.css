@@ -1,0 +1,425 @@
+header { 
+	background-color: #6f42c1; 
+	color: white; 
+	padding: 5% 5% 0px 5%;
+	text-align: center;
+  margin: 0px;
+}
+
+h1 {
+	color: white; 
+	background: #6f42c1;
+	text-align: center;
+	margin-bottom: 0%;
+	padding: 10px;
+	font-family: 'Epilogue', sans-serif;
+	font-size: 35px;
+  letter-spacing: 2px;
+}
+
+h2 {
+	color: white; 
+	background: #6f42c1;
+	text-align: center;
+	margin-bottom: 0%;
+	padding: 10px;
+	font-family: 'Epilogue', sans-serif;
+	font-size: 20px;
+  letter-spacing: 1px;
+}
+
+body {
+	margin: 0px;
+	color: white;
+	font-family: 'Epilogue', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.whitelink { 
+	text-decoration: none; 
+	color: white; 
+}
+
+nav { 
+	text-align: center; 
+	background-color: #6f42c1; 
+	padding-bottom: 0px;
+	font-family: 'Epilogue', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+nav ul {
+	list-style-type: none;
+  padding: 0px;
+}
+
+nav ul li { 
+	display: inline-block; 
+	padding: 10px; 
+	border-top-left-radius: 7px; 
+	border-top-right-radius: 7px; 
+ }
+ .active { 
+ 	color: #6f42c1;
+ 	background-color: white;
+ }
+
+ li.active a {
+ 	color: #6f42c1;
+ }
+
+section {
+	margin-top: 50px;
+	margin-bottom: 50px; 
+}
+
+.about-img {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+footer {
+	background-color: #6f42c1;
+	height: 150px;
+	text-align: center;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-top: 50px;
+  background: white;
+  color: #6f42c1;
+}
+
+.fa fa-doc {
+  padding: 10px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-top: 50px;
+  background: white;
+  color: #6f42c1;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.8;
+}
+
+.fa-doc:hover {
+  opacity: 0.8;
+}
+
+p {
+	color: black;
+	font-family: 'Epilogue', sans-serif;
+	padding-left: 35px;
+	padding-right: 35px;
+	margin-left: 82px;
+  margin-right: 90px;
+	padding-top: 0px;
+  line-height: 1.5;
+}
+
+.title {
+	color: #6f42c1;
+	font-family: 'Epilogue', sans-serif;
+	padding: 35px;
+	padding-bottom: 10px;
+	margin-left: 82px;
+	text-align: left;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+.link {
+  background-color: black;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px; 
+ 
+}
+
+.link:hover {
+  background-color: #6f42c1;
+  color: white;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #6f42c1;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  padding-bottom: 0px;
+  font-family: 'Epilogue', sans-serif;
+  padding: 10px; 
+  border-top-left-radius: 7px; 
+  border-top-right-radius: 7px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  text-align: center;
+  text-decoration: none;
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: inherit;
+  max-width: inherit;
+  font-size: 15px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #6f42c1;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: 'Epilogue', sans-serif;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  max-width: 5%;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: white; color: #6f42c1; font-weight: bold;}
+
+.link2 {
+  color: #6f42c1;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.link2:hover {
+  color: black;
+  font-style: italic;
+}
+
+.iframe {
+  margin-left: 100px;
+  text-align: left; 
+  display: block;
+  margin-right: auto;
+  width: 40vw;
+  height: 20vw;
+}
+
+.home-title {
+  font-family: 'Epilogue', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 100px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  letter-spacing: 1px;
+}
+
+.anthology {
+  text-align: center;
+  font-family: 'Epilogue', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.date {
+  text-align: center;
+  font-family: 'Epilogue', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.homelink {
+  text-align: center;
+  font-family: 'Epilogue', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.trailer {
+  text-align: center;
+}
+
+.trailer2 {
+  display: block;
+  margin: auto;
+  width: 60vw;
+  height: 30vw;
+}
+
+#myBtn { /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: black; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #6f42c1; 
+}
+
+.census {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45vw;
+  height: 22.5vw;
+  float: left;
+}
+
+.that {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45vw;
+  height: 22.5vw;
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.homelink1 {
+  text-align: left;
+  float: left;
+  font-weight: bold;
+  font-size: 2vw;
+  margin: auto;
+  margin-left: 10%;
+  padding: auto;
+}
+
+.homelink2 {
+  text-align: right;
+  float: right;
+  font-weight: bold;
+  font-size: 1.5vw;
+  margin: auto;
+  padding: auto;
+}
+
+#active {
+  color: #6f42c1;
+  background-color: white;
+  font-weight: bold;
+}
+
+.other {
+  font-size: 20px;
+  margin-bottom: 0px;
+  margin-top: 50px;
+}
+
+.showspic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.profiles {
+  float: right;
+  max-width: 15%;
+  height: auto;
+  margin-right: 10%;
+}
+
+.group-img {display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+
+.group-p {
+  margin-bottom: 50px;
+}
+
+.group-1 {
+  margin-top: 70px;
+}
+
+.documentazione {
+  display: block;
+  margin-left: 100px;
+  margin-right: auto;
+  width: 55%;
+}
+
+.documentazione2 {
+  display: block;
+  margin-left: 100px;
+  margin-right: auto;
+  width: 40%;
+}
+
+.caption {
+  font-size: 12px;
+  color: #57686B;
+  font-style: italic;
+}
+
+.list {
+  margin-left: 150px;
+  margin-top: 0px;
+  margin-right: 90px;
+}
+
