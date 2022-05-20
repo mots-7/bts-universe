@@ -186,7 +186,7 @@ p {
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-  text-align: left;
+  text-align: center;
   text-decoration: none;
   display: none;
   position: absolute;
